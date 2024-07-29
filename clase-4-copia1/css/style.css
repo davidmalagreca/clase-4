@@ -1,0 +1,253 @@
+*{
+    maring: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container, .section, .sectionfooter, .centro {
+    overflow: hidden;
+}
+header{
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+main{
+    padding-top: 15%;
+}
+.h1{
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+.navbar{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logobong{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+}
+.logobong1{
+    display: flex;
+    justify-content: center;
+}
+.centro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.section{
+    justify-items: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    position: sticky;
+}
+.container{
+        font-weight: bold;
+        display: flex;
+        justify-content: end;
+    }
+
+.section2{
+    display: flex;
+    align-self: center;
+}
+.container nav{
+    display: flex;
+    column-gap: 1rem;
+    justify-items: end;
+}
+
+.h1portada{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-content: center;
+}
+.log4{
+    display: flex;
+    justify-content:space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.banner{
+    width: max-content;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+    gap: 3.125rem;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.grilla1{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+    gap: 3.125rem;
+}
+.card{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.boxtext{
+    font-size: 30px;
+    padding: .3125rem;
+    margin: 5px;
+    font-weight: bolder;
+}
+.prendas{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: white;
+}
+.prendas img{
+    border-radius: 20px;
+}
+.prenda-info{
+    background-color: white;
+    font-weight:lighter
+}
+button{
+    text-decoration: none;
+}
+.sectioninfo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 00px;
+}
+
+.sectioninfotext{
+    width: 100%;    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: .625rem;
+    height: 70px;
+}
+.sectioninfotext a{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.button{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 350px 350px;
+    column-gap: 70px;
+    justify-content: center;
+}
+
+.img-boton{
+    display: grid;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+}
+.boton{
+    margin-top: 80px;
+    border-radius: 23px;
+    border: none;
+}
+
+.texto-somos1{
+    display: flex;
+    justify-content: center;
+}
+.texto-somos{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+.img-somos{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer{
+    margin-top: 80px;
+    background-color: black;
+}
+
+.sectionfooter{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: medium;
+    font-weight: bolder;
+    background-color: black;
+    color: wheat;
+    gap: 31.25rem;
+    
+}   
+.sectionfooter a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    display: block;
+    text-decoration: none;
+
+}
+.footerlogo{
+    display: flex;
+    padding: 50px;
+    margin-left: 195px;
+}
+.footer1{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.footer2{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.footer3{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
